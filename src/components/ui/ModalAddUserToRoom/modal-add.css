@@ -1,0 +1,8 @@
+.pop-up-add-user {
+  margin: auto;
+  background-color: white;
+  width: 50%;
+}
+.pop-up-add-user .edit.add {
+  width: 11vw;
+}

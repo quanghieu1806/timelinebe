@@ -1,0 +1,87 @@
+.profile-section {
+  width: 100%;
+  height: 60vh;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.profile-section .profile {
+  flex-direction: column;
+  padding: 1vw;
+}
+
+.profile-section .profile .top-profile {
+  width: 80%;
+  justify-content: space-between;
+}
+
+.profile-section .profile .top-profile .image-profile {
+  width: 10vw;
+}
+.profile-section .profile .top-profile .image-profile img {
+  width: 100%;
+}
+.profile-section .profile .top-profile .name-position {
+  flex-direction: column;
+  height: 18vh;
+  justify-content: space-between;
+}
+
+.profile-section .profile .top-profile .name-position .name {
+  font-weight: 600;
+  font-size: 16px;
+}
+.profile-section .profile .top-profile .name-position .position {
+  color: #1890ff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.profile-section .profile .top-profile .name-position .is-active {
+  padding: 1vh 1vw;
+  border: 1px solid #91caff;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.bottom-profile .title-line {
+  width: 100%;
+  color: #00000080;
+  display: flex;
+  font-size: 11px;
+  justify-content: space-between;
+}
+.bottom-profile .title-line .basic-line {
+  width: 49%;
+  justify-content: space-between;
+}
+.bottom-profile .title-line .contact-line {
+  width: 49%;
+  justify-content: space-between;
+}
+.bottom-profile .title-line .contact-line::after {
+  content: "";
+  width: 55%;
+  height: 1px;
+  background-color: #00000033;
+}
+.bottom-profile .title-line .basic-line::after {
+  content: "";
+  width: 55%;
+  height: 1px;
+  background-color: #00000033;
+}
+.infor-profile {
+    
+  font-size: 14px;
+  font-weight: 400;
+}
+.infor-profile .date-gender {
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.infor-profile .email-address {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}

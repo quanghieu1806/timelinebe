@@ -1,0 +1,63 @@
+/* .card-task {
+  border: 1px solid #dbdbdb;
+  box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.05);
+} */
+
+.card {
+  padding: 10px;
+  color: #233555;
+}
+
+.card-task {
+  margin-top: 10px;
+}
+
+.card-task .card-title {
+  font-weight: 700;
+  margin-bottom: 0 !important;
+}
+.card .owner-card {
+  padding: 5px;
+  justify-content: space-between;
+  width: 90%;
+}
+.card .owner-card .avt {
+  width: 15%;
+}
+.card .owner-card .owner {
+  width: 80%;
+}
+.card .card-description,
+.card-task {
+  font-size: 14px;
+}
+.middle-point {
+  width: 2px;
+  height: 2px;
+  background-color: #b5b5b5;
+}
+.task-recipient {
+  width: 50%;
+  margin-left: 10px;
+}
+.task-recipient .user-task {
+  width: 50%;
+}
+.task-recipient .user-more {
+  width: 51px;
+  height: 30px;
+  margin-left: -10px;
+  background: #1890ff;
+  border-radius: 30px;
+  opacity: 0.4;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-time .start-end-time {
+  font-size: 12px;
+  width: 100%;
+  justify-content: space-evenly;
+}

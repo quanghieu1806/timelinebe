@@ -1,0 +1,128 @@
+.member-section {
+  width: 100%;
+  z-index: 999999;
+  height: 100vh;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+
+.modal-delete {
+  position: fixed;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.modal-delete .pop-up-delete {
+  background-color: white;
+  /* width: 30vw;
+  height: 20vw; */
+  border-radius: 6px;
+  background-color: white;
+
+  padding: 16px 21px;
+}
+.modal-delete .pop-up-delete .title {
+  font-weight: 700;
+}
+.modal-delete .pop-up-delete .yes-no {
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.modal-delete .pop-up-delete .yes-no .yes-no-wrapper {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-delete .pop-up-delete .yes-no .no {
+  color: #919eab;
+  cursor: pointer;
+}
+
+.member-section .header-title {
+  justify-content: space-between;
+  padding-top: 35px;
+}
+.member-section .header-title .edit {
+  justify-content: space-between;
+  width: 10vw;
+  cursor: pointer;
+  flex-direction: row-reverse;
+}
+.header-title-wrapper {
+  width: 80%;
+  margin: auto;
+}
+.member-section .header-title .title {
+  font-weight: 700;
+  font-size: 25px;
+}
+.member-section .edit button {
+  box-shadow: 0px 4.26207px 4.26207px rgba(0, 0, 0, 0.25);
+  border-radius: 8.52414px;
+}
+.input-section {
+  text-align: center;
+  margin-top: 17px;
+}
+.input-section input {
+  width: 28vw;
+}
+.list-employees {
+  height: 70vh;
+  margin-top: 15px;
+  overflow-y: auto;
+}
+.list-employees .emplopyee {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-employees .emplopyee .title-profile {
+  height: 100px;
+  align-items: center;
+  padding: 0 13px;
+  cursor: pointer;
+}
+.list-employees .emplopyee .action-icons {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-employees .emplopyee.active {
+  background: #f2f9ff;
+}
+.list-employees .emplopyee.selected {
+  background: rgba(24, 144, 255, 0.25);
+}
+.list-employees .emplopyee .avt {
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+}
+.list-employees .emplopyee .detail {
+  margin-left: 12px;
+}
+.list-employees .emplopyee .detail .name-email {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.list-employees .emplopyee .detail .postion {
+  font-size: 13px;
+  line-height: 18px;
+  color: #989898;
+}
+.list-employees .emplopyee img {
+  width: 100%;
+}
